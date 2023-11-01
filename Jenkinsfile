@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Stage1') {
       steps {
-        git 'https://github.com/pascariucosmin93/html'
+         git(url: 'https://github.com/pascariucosmin93/html', branch: 'Main')
       }
     }
 
